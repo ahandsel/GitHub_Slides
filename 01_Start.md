@@ -332,7 +332,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 |       |        ↘️  `git push` 🔄 ↘️         |
 |       | [ remote repository (GitHub) 🌐 ] |
 
----
+#### working directory, `git add`, staging area
 
 |       |                                  |
 | :---: | :------------------------------: |
@@ -355,9 +355,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
   - 以前は「インデックス」と呼ばれていました
   - ある特定の変更のみを追加し, まとめてリポジトリに追加する準備を行うことができます
 
----
-
-**待って，ステージングエリアが必要な理由？ 🤔**
+##### 待って，ステージングエリアが必要な理由？ 🤔
   - ファイルをステージングする = コミットのためのファイルを準備する
 
 あなたが音楽を作っていると想像してください 🎶
@@ -372,7 +370,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
   - アルバム内の必要なすべての曲を `Staging Area` に保存したら, コミットする時間です
   - `git commit -m` する時, "Love Song" ってアルバムのタイトルをコメント追加してコミットします
 
----
+#### `git commit`, repository, `git push`
 
 |       |                                  |
 | :---: | :------------------------------: |
@@ -394,7 +392,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
   - Git リポジトリは, プロジェクト内の `.git` フォルダで管理されています
   - リポジトリは, プロジェクトの変更を追跡できます。
 
-**Git フォルダーの中身は何ですか? 🤔**
+##### Git フォルダーの中身は何ですか? 🤔
 
 ```sh
 $ pwd
@@ -425,7 +423,7 @@ drwxr-xr-x   7 UserName  staff  224 Jun  9 14:54 objects
 drwxr-xr-x   5 UserName  staff  160 Jun  9 14:56 refs
 ```
 
----
+#### `git push`, remote repository
 
 |       |                                  |
 | :---: | :------------------------------: |
@@ -444,8 +442,6 @@ drwxr-xr-x   5 UserName  staff  160 Jun  9 14:56 refs
 
 `remote repository` (GitHub) 🌐
   - GitHub のサーバー上のリポジトリであり, コードを他のユーザーが確認できるようにします
-
----
 
 ### リモートリポジトリの操作
 
@@ -483,8 +479,6 @@ drwxr-xr-x   5 UserName  staff  160 Jun  9 14:56 refs
   - [Git - リモートでの作業](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E5%9F%BA%E6%9C%AC-%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%81%A7%E3%81%AE%E4%BD%9C%E6%A5%AD)
   - [Git - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
   - [Git - git-remote Documentation](https://git-scm.com/docs/git-remote)
-
----
 
 ### git push?
 `git push <remote> <branch>` 🔄

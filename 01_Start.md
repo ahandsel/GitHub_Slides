@@ -97,13 +97,13 @@ GitHub の設定
 
 **Mac : Terminalを使用**
 
-**Windows : Ubuntuを使用**
+**Windows : Linux Terminal（Ubuntu on WSL2）を使用**
 
 ### ローカルGitリポジトリを作成する
 
 アクセスしやすいフォルダーに移動し, `learning_js` という名前のディレクトリを作成します.  
 macOS ユーザーだと Document フォルダをお勧めします.  
-Window ユーザーの場合は, [Ubuntu](00_Prep.md#wslの初期化) のトップ フォルダーからでもいいですよ.  
+Window ユーザーの場合は, [Ubuntu on WSL2](00_Prep.md#wslの初期化) のトップ フォルダーからでもいいですよ.  
 
 ```sh
 cd Documents

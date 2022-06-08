@@ -14,7 +14,6 @@
   - [GitHubとは…](#githubとは)
   - [リポジトリの設定 - ハンズオン](#リポジトリの設定---ハンズオン)
   - [ローカルでの設定](#ローカルでの設定)
-    - [Gitの設定をする](#gitの設定をする)
     - [ローカルGitリポジトリを作成する](#ローカルgitリポジトリを作成する)
     - [README.md ファイルの追加](#readmemd-ファイルの追加)
     - [Gitのステータスを確認する](#gitのステータスを確認する)
@@ -99,24 +98,6 @@ GitHub の設定
 **Mac : Terminalを使用**
 
 **Windows : Ubuntuを使用**
-
-### Gitの設定をする
-  - `git config` コマンドを使用して, Gitのユーザー名とメールを設定します
-  - `GitHub_UserName` と `example@email.com` 以下を自分のものに置き換えてください
-
-```sh
-git config --global user.name "GitHub_UserName"
-git config --global user.email "example@email.com"
-git config --global color.ui auto
-```
-
-設定が有効になったことを確認しましょう
-
-```sh
-git config --global --list
-```
-
-[Git - 最初のGitの構成](https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-%E6%9C%80%E5%88%9D%E3%81%AEGit%E3%81%AE%E6%A7%8B%E6%88%90)
 
 ### ローカルGitリポジトリを作成する
 

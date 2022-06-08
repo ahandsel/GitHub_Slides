@@ -233,7 +233,7 @@ nothing to commit, working tree clean
 
 `learning_js` という名前のリポジトリを作成します
 
-READMEでリポジトリを初期化しないでください
+「Initialize this repositiory with a README.md」のチェックボックスは、選択を外してください
 
 ![Gif_GitHub_Repo_Demo](assets/Gif_GitHub_Repo_Demo.gif)
 

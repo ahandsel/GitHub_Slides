@@ -114,7 +114,7 @@ cd learning_js
 `pwd` コマンドを使用して, 正しい場所にいることを確認します
 
 ```sh
-❯ pwd
+$ pwd
 /Users/YourUserName/Documents/learning_js
 ```
 
